@@ -1,0 +1,1235 @@
+{
+    "Chassis": [
+        {
+            "Id": "System.Embedded.1",
+            "Manufacturer": "Dell Inc.",
+            "Model": "PowerEdge R6525",
+            "PowerState": "On",
+            "Health": "Critical",
+            "Systems": [
+                {
+                    "Id": "System.Embedded.1",
+                    "Manufacturer": "Dell Inc.",
+                    "PowerState": "On",
+                    "Model": "AMD EPYC 7663 56-Core Processor",
+                    "Count": 2,
+                    "MaxCPUSockets": 2,
+                    "MaxDIMMSlots": 32,
+                    "MaxPCIeSlots": 4,
+                    "MemoryOperationMode": "OptimizerMode",
+                    "PopulatedDIMMSlots": 32,
+                    "PopulatedPCIeSlots": 1,
+                    "SKU": "C9X7T13",
+                    "Status": {
+                        "Health": "Critical",
+                        "HealthRollup": "Critical",
+                        "State": "Enabled"
+                    },
+                    "SystemType": "Physical",
+                    "Bios": {
+                        "Attributes": {
+                            "SystemModelName": "PowerEdge R6525",
+                            "SystemBiosVersion": "2.7.3",
+                            "SystemServiceTag": "C9X7T13",
+                            "SystemManufacturer": "Dell Inc.",
+                            "SysMfrContactInfo": "www.dell.com",
+                            "SystemCpldVersion": "1.0.0",
+                            "UefiComplianceVersion": "2.7",
+                            "AgesaVersion": "MilanPI-SP3 1.0.0.8",
+                            "SmuVersion": "0.45.87.0",
+                            "DxioVersion": "45.682",
+                            "ProcCoreSpeed": "2.00 GHz",
+                            "ProcBusSpeed": "16 GT/s",
+                            "Proc1Id": "19-1-1",
+                            "Proc1Brand": "AMD EPYC 7663 56-Core Processor                ",
+                            "Proc1L2Cache": "56x512 KB",
+                            "Proc1L3Cache": "256 MB",
+                            "Proc1Microcode": "0xA001173",
+                            "Proc2Id": "19-1-1",
+                            "Proc2Brand": "AMD EPYC 7663 56-Core Processor                ",
+                            "Proc2L2Cache": "56x512 KB",
+                            "Proc2L3Cache": "256 MB",
+                            "Proc2Microcode": "0xA001173",
+                            "SataPortAModel": "Unknown",
+                            "SataPortADriveType": "Unknown Device",
+                            "SataPortACapacity": "N/A",
+                            "SataPortBModel": "Unknown",
+                            "SataPortBDriveType": "Unknown Device",
+                            "SataPortBCapacity": "N/A",
+                            "SataPortCModel": "Unknown",
+                            "SataPortCDriveType": "Unknown Device",
+                            "SataPortCCapacity": "N/A",
+                            "SataPortDModel": "Unknown",
+                            "SataPortDDriveType": "Unknown Device",
+                            "SataPortDCapacity": "N/A",
+                            "SataPortEModel": "Unknown",
+                            "SataPortEDriveType": "Unknown Device",
+                            "SataPortECapacity": "N/A",
+                            "SataPortFModel": "Unknown",
+                            "SataPortFDriveType": "Unknown Device",
+                            "SataPortFCapacity": "N/A",
+                            "SataPortGModel": "Unknown",
+                            "SataPortGDriveType": "Unknown Device",
+                            "SataPortGCapacity": "N/A",
+                            "SataPortHModel": "Unknown",
+                            "SataPortHDriveType": "Unknown Device",
+                            "SataPortHCapacity": "N/A",
+                            "SetBootOrderEn": "AHCI.Slot.2-2,NIC.PxeDevice.1-1",
+                            "IscsiDev1Con1Lun": "0",
+                            "IscsiDev1Con2Lun": "0",
+                            "CurrentEmbVideoState": "Enabled",
+                            "AesNi": "Enabled",
+                            "TpmInfo": "No TPM present",
+                            "SysMemSize": "2048 GB",
+                            "SysMemType": "ECC DDR4",
+                            "SysMemSpeed": "2933 MT/s",
+                            "SysMemVolt": "1.20 V",
+                            "VideoMem": "16 MB",
+                            "CpuMinSevAsid": 1,
+                            "Proc1NumCores": 56,
+                            "Proc2NumCores": 56,
+                            "PxeDev1VlanId": 1,
+                            "PxeDev2VlanId": 1,
+                            "PxeDev3VlanId": 1,
+                            "PxeDev4VlanId": 1,
+                            "PxeDev5VlanId": 1,
+                            "PxeDev6VlanId": 1,
+                            "PxeDev7VlanId": 1,
+                            "PxeDev8VlanId": 1,
+                            "PxeDev9VlanId": 1,
+                            "PxeDev10VlanId": 1,
+                            "PxeDev11VlanId": 1,
+                            "PxeDev12VlanId": 1,
+                            "PxeDev13VlanId": 1,
+                            "PxeDev14VlanId": 1,
+                            "PxeDev15VlanId": 1,
+                            "PxeDev16VlanId": 1,
+                            "HttpDev1VlanId": 1,
+                            "HttpDev2VlanId": 1,
+                            "HttpDev3VlanId": 1,
+                            "HttpDev4VlanId": 1,
+                            "IscsiDev1Con1VlanId": 1,
+                            "IscsiDev1Con1Retry": 3,
+                            "IscsiDev1Con1Timeout": 10000,
+                            "IscsiDev1Con1Port": 3260,
+                            "IscsiDev1Con2VlanId": 1,
+                            "IscsiDev1Con2Retry": 3,
+                            "IscsiDev1Con2Timeout": 10000,
+                            "IscsiDev1Con2Port": 3260,
+                            "AcPwrRcvryUserDelay": 60,
+                            "LogicalProc": "Enabled",
+                            "ProcVirtualization": "Enabled",
+                            "IommuSupport": "Enabled",
+                            "KernelDmaProtection": "Disabled",
+                            "L1StreamHwPrefetcher": "Enabled",
+                            "L2StreamHwPrefetcher": "Enabled",
+                            "L1StridePrefetcher": "Enabled",
+                            "L1RegionPrefetcher": "Enabled",
+                            "L2UpDownPrefetcher": "Enabled",
+                            "MadtCoreEnumeration": "Linear",
+                            "NumaNodesPerSocket": "1",
+                            "CcxAsNumaDomain": "Disabled",
+                            "Sme": "Disabled",
+                            "Snp": "Disabled",
+                            "Rmp": "Disabled",
+                            "TransparentSme": "Disabled",
+                            "CpuFeatureErms": "Disabled",
+                            "CpuFeatureFsrm": "Disabled",
+                            "CpuFeatureRmss": "Disabled",
+                            "ProcConfigTdp": "Maximum",
+                            "ProcX2Apic": "Enabled",
+                            "ProcCcds": "All",
+                            "CcdCores": "All",
+                            "ControlledTurbo": "Disabled",
+                            "OptimizerMode": "Auto",
+                            "EmbSata": "AhciMode",
+                            "SecurityFreezeLock": "Enabled",
+                            "WriteCache": "Disabled",
+                            "SataPortA": "Auto",
+                            "SataPortB": "Auto",
+                            "SataPortC": "Auto",
+                            "SataPortD": "Auto",
+                            "SataPortE": "Auto",
+                            "SataPortF": "Auto",
+                            "SataPortG": "Auto",
+                            "SataPortH": "Auto",
+                            "NvmeMode": "NonRaid",
+                            "BiosNvmeDriver": "DellQualifiedDrives",
+                            "BootMode": "Uefi",
+                            "BootSeqRetry": "Enabled",
+                            "HddFailover": "Disabled",
+                            "GenericUsbBoot": "Disabled",
+                            "HddPlaceholder": "Disabled",
+                            "SysPrepClean": "None",
+                            "OneTimeBootMode": "Disabled",
+                            "OneTimeUefiBootSeqDev": "AHCI.Slot.2-2",
+                            "PxeDev1EnDis": "Enabled",
+                            "PxeDev2EnDis": "Disabled",
+                            "PxeDev3EnDis": "Disabled",
+                            "PxeDev4EnDis": "Disabled",
+                            "HttpDev1EnDis": "Disabled",
+                            "HttpDev2EnDis": "Disabled",
+                            "HttpDev3EnDis": "Disabled",
+                            "HttpDev4EnDis": "Disabled",
+                            "IscsiDev1EnDis": "Disabled",
+                            "PxeDev1Interface": "NIC.Integrated.1-1-1",
+                            "PxeDev1Protocol": "IPv4",
+                            "PxeDev1VlanEnDis": "Disabled",
+                            "PxeDev2Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev2Protocol": "IPv4",
+                            "PxeDev2VlanEnDis": "Disabled",
+                            "PxeDev3Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev3Protocol": "IPv4",
+                            "PxeDev3VlanEnDis": "Disabled",
+                            "PxeDev4Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev4Protocol": "IPv4",
+                            "PxeDev4VlanEnDis": "Disabled",
+                            "PxeDev5Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev5Protocol": "IPv4",
+                            "PxeDev5VlanEnDis": "Disabled",
+                            "PxeDev6Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev6Protocol": "IPv4",
+                            "PxeDev6VlanEnDis": "Disabled",
+                            "PxeDev7Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev7Protocol": "IPv4",
+                            "PxeDev7VlanEnDis": "Disabled",
+                            "PxeDev8Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev8Protocol": "IPv4",
+                            "PxeDev8VlanEnDis": "Disabled",
+                            "PxeDev9Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev9Protocol": "IPv4",
+                            "PxeDev9VlanEnDis": "Disabled",
+                            "PxeDev10Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev10Protocol": "IPv4",
+                            "PxeDev10VlanEnDis": "Disabled",
+                            "PxeDev11Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev11Protocol": "IPv4",
+                            "PxeDev11VlanEnDis": "Disabled",
+                            "PxeDev12Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev12Protocol": "IPv4",
+                            "PxeDev12VlanEnDis": "Disabled",
+                            "PxeDev13Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev13Protocol": "IPv4",
+                            "PxeDev13VlanEnDis": "Disabled",
+                            "PxeDev14Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev14Protocol": "IPv4",
+                            "PxeDev14VlanEnDis": "Disabled",
+                            "PxeDev15Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev15Protocol": "IPv4",
+                            "PxeDev15VlanEnDis": "Disabled",
+                            "PxeDev16Interface": "NIC.Embedded.1-1-1",
+                            "PxeDev16Protocol": "IPv4",
+                            "PxeDev16VlanEnDis": "Disabled",
+                            "HttpDev1Interface": "NIC.Embedded.1-1-1",
+                            "HttpDev1Protocol": "IPv4",
+                            "HttpDev1VlanEnDis": "Disabled",
+                            "HttpDev1DhcpEnDis": "Enabled",
+                            "HttpDev1DnsDhcpEnDis": "Enabled",
+                            "HttpDev1TlsMode": "None",
+                            "HttpDev2Interface": "NIC.Embedded.1-1-1",
+                            "HttpDev2Protocol": "IPv4",
+                            "HttpDev2VlanEnDis": "Disabled",
+                            "HttpDev2DhcpEnDis": "Enabled",
+                            "HttpDev2DnsDhcpEnDis": "Enabled",
+                            "HttpDev2TlsMode": "None",
+                            "HttpDev3Interface": "NIC.Embedded.1-1-1",
+                            "HttpDev3Protocol": "IPv4",
+                            "HttpDev3VlanEnDis": "Disabled",
+                            "HttpDev3DhcpEnDis": "Enabled",
+                            "HttpDev3DnsDhcpEnDis": "Enabled",
+                            "HttpDev3TlsMode": "None",
+                            "HttpDev4Interface": "NIC.Embedded.1-1-1",
+                            "HttpDev4Protocol": "IPv4",
+                            "HttpDev4VlanEnDis": "Disabled",
+                            "HttpDev4DhcpEnDis": "Enabled",
+                            "HttpDev4DnsDhcpEnDis": "Enabled",
+                            "HttpDev4TlsMode": "None",
+                            "IscsiDev1Con1EnDis": "Disabled",
+                            "IscsiDev1Con2EnDis": "Disabled",
+                            "IscsiDev1ConOrder": "Con1Con2",
+                            "IscsiDev1Con1Interface": "NIC.Embedded.1-1-1",
+                            "IscsiDev1Con1Protocol": "IPv4",
+                            "IscsiDev1Con1VlanEnDis": "Disabled",
+                            "IscsiDev1Con1DhcpEnDis": "Disabled",
+                            "IscsiDev1Con1TgtDhcpEnDis": "Disabled",
+                            "IscsiDev1Con1Auth": "None",
+                            "IscsiDev1Con1ChapType": "OneWay",
+                            "IscsiDev1Con2Interface": "NIC.Embedded.1-1-1",
+                            "IscsiDev1Con2Protocol": "IPv4",
+                            "IscsiDev1Con2VlanEnDis": "Disabled",
+                            "IscsiDev1Con2DhcpEnDis": "Disabled",
+                            "IscsiDev1Con2TgtDhcpEnDis": "Disabled",
+                            "IscsiDev1Con2Auth": "None",
+                            "IscsiDev1Con2ChapType": "OneWay",
+                            "UsbPorts": "AllOn",
+                            "UsbManagedPort": "On",
+                            "IntegratedNetwork1": "Enabled",
+                            "EmbNic1Nic2": "Enabled",
+                            "EmbVideo": "Enabled",
+                            "PcieSocket0Nbio3LclkFreq": "Auto",
+                            "PcieSocket0Nbio2LclkFreq": "Auto",
+                            "PcieSocket0Nbio1LclkFreq": "Auto",
+                            "PcieSocket0Nbio0LclkFreq": "Auto",
+                            "PcieSocket1Nbio3LclkFreq": "Auto",
+                            "PcieSocket1Nbio2LclkFreq": "Auto",
+                            "PcieSocket1Nbio1LclkFreq": "Auto",
+                            "PcieSocket1Nbio0LclkFreq": "Auto",
+                            "PciePreferredIoBus": "Disabled",
+                            "PcieEnhancedPreferredIo": "Disabled",
+                            "SriovGlobalEnable": "Disabled",
+                            "OsWatchdogTimer": "Disabled",
+                            "MmioLimit": "8TB",
+                            "DellAutoDiscovery": "PlatformDefault",
+                            "Slot1Bif": "x16",
+                            "Slot2Bif": "x16",
+                            "Slot3Bif": "x16",
+                            "Slot1": "Enabled",
+                            "Slot2": "Enabled",
+                            "Slot3": "Enabled",
+                            "SerialComm": "OnNoConRedir",
+                            "SerialPortAddress": "Com1",
+                            "ExtSerialConnector": "Serial1",
+                            "FailSafeBaud": "115200",
+                            "ConTermType": "Vt100Vt220",
+                            "RedirAfterBoot": "Enabled",
+                            "SysProfile": "PerfPerWattOptimizedOs",
+                            "ProcPwrPerf": "OsDbpm",
+                            "MemFrequency": "MaxPerf",
+                            "ProcTurboMode": "Enabled",
+                            "ProcCStates": "Enabled",
+                            "WriteDataCrc": "Disabled",
+                            "MemPatrolScrub": "Standard",
+                            "MemRefreshRate": "1x",
+                            "WorkloadProfile": "NotConfigured",
+                            "PcieAspmL1": "Enabled",
+                            "DeterminismSlider": "PowerDeterminism",
+                            "EfficiencyOptimizedMode": "Disabled",
+                            "ApbDis": "Disabled",
+                            "AmdMaxXgmiSpeed": "16GB",
+                            "DynamicLinkWidthManagement": "Unforced",
+                            "PasswordStatus": "Unlocked",
+                            "DrtmSkinit": "Off",
+                            "PwrButton": "Enabled",
+                            "AcPwrRcvry": "Last",
+                            "AcPwrRcvryDelay": "Immediate",
+                            "UefiVariableAccess": "Standard",
+                            "SecureBoot": "Disabled",
+                            "SecureBootPolicy": "Standard",
+                            "SecureBootMode": "DeployedMode",
+                            "AuthorizeDeviceFirmware": "Disabled",
+                            "TpmPpiBypassProvision": "Disabled",
+                            "TpmPpiBypassClear": "Disabled",
+                            "RedundantOsLocation": "None",
+                            "RedundantOsState": "Visible",
+                            "RedundantOsBoot": "Disabled",
+                            "MemTest": "Disabled",
+                            "DramRefreshDelay": "Minimum",
+                            "MemOpMode": "OptimizerMode",
+                            "MemoryInterleaving": "Auto",
+                            "CorrEccSmi": "Enabled",
+                            "CECriticalSEL": "Disabled",
+                            "PPROnUCE": "Enabled",
+                            "DimmSlot00": "Enabled",
+                            "DimmSlot01": "Enabled",
+                            "DimmSlot02": "Enabled",
+                            "DimmSlot03": "Enabled",
+                            "DimmSlot04": "Enabled",
+                            "DimmSlot05": "Enabled",
+                            "DimmSlot06": "Enabled",
+                            "DimmSlot07": "Enabled",
+                            "DimmSlot08": "Enabled",
+                            "DimmSlot09": "Enabled",
+                            "DimmSlot10": "Enabled",
+                            "DimmSlot11": "Enabled",
+                            "DimmSlot12": "Enabled",
+                            "DimmSlot13": "Enabled",
+                            "DimmSlot14": "Enabled",
+                            "DimmSlot15": "Enabled",
+                            "DimmSlot16": "Enabled",
+                            "DimmSlot17": "Enabled",
+                            "DimmSlot18": "Enabled",
+                            "DimmSlot19": "Enabled",
+                            "DimmSlot20": "Enabled",
+                            "DimmSlot21": "Enabled",
+                            "DimmSlot22": "Enabled",
+                            "DimmSlot23": "Enabled",
+                            "DimmSlot24": "Enabled",
+                            "DimmSlot25": "Enabled",
+                            "DimmSlot26": "Enabled",
+                            "DimmSlot27": "Enabled",
+                            "DimmSlot28": "Enabled",
+                            "DimmSlot29": "Enabled",
+                            "DimmSlot30": "Enabled",
+                            "DimmSlot31": "Enabled",
+                            "NumLock": "On",
+                            "ErrPrompt": "Enabled",
+                            "ForceInt10": "Disabled",
+                            "DellWyseP25BIOSAccess": "Enabled",
+                            "PowerCycleRequest": "None"
+                        }
+                    },
+                    "OS": {
+                        "Static hostname": "dell-c9x7t13",
+                        "Operating System": "Oracle Linux Server 8.6",
+                        "Kernel": "Linux 5.4.17-2136.308.9.el8uek.x86_64",
+                        "Architecture": "x86-64",
+                        "CPU(s)": "224",
+                        "On-line CPU(s) list": "0-223",
+                        "Thread(s) per core": "2",
+                        "Core(s) per socket": "56",
+                        "Socket(s)": "2",
+                        "Model": "AMD EPYC 7663 56-Core Processor",
+                        "NUMA node(s)": "2",
+                        "Frequency boost": null,
+                        "CPU MHz": "2979.074",
+                        "CPU max MHz": "2000.0000",
+                        "CPU min MHz": "1500.0000",
+                        "BogoMIPS": "3992.64",
+                        "Virtualization": "AMD-V",
+                        "L1d cache": "32K",
+                        "L1i cache": "32K",
+                        "L2 cache": "512K",
+                        "L3 cache": "32768K",
+                        "NUMA node0 CPU(s)": "0-55,112-167",
+                        "NUMA node1 CPU(s)": "56-111,168-223",
+                        "lsblk": [
+                            {
+                                "name": "sda",
+                                "maj_min": "8:0",
+                                "rm": false,
+                                "size": "223.5G",
+                                "ro": false,
+                                "type": "disk",
+                                "mountpoint": null
+                            },
+                            {
+                                "name": "sda1",
+                                "maj_min": "8:1",
+                                "rm": false,
+                                "size": "600M",
+                                "ro": false,
+                                "type": "part",
+                                "mountpoint": "/boot/efi"
+                            },
+                            {
+                                "name": "sda2",
+                                "maj_min": "8:2",
+                                "rm": false,
+                                "size": "1G",
+                                "ro": false,
+                                "type": "part",
+                                "mountpoint": "/boot"
+                            },
+                            {
+                                "name": "sda3",
+                                "maj_min": "8:3",
+                                "rm": false,
+                                "size": "221.9G",
+                                "ro": false,
+                                "type": "part",
+                                "mountpoint": null
+                            },
+                            {
+                                "name": "ol-root",
+                                "maj_min": "252:0",
+                                "rm": false,
+                                "size": "70G",
+                                "ro": false,
+                                "type": "lvm",
+                                "mountpoint": "/"
+                            },
+                            {
+                                "name": "ol-swap",
+                                "maj_min": "252:1",
+                                "rm": false,
+                                "size": "4G",
+                                "ro": false,
+                                "type": "lvm",
+                                "mountpoint": "[SWAP]"
+                            },
+                            {
+                                "name": "ol-home",
+                                "maj_min": "252:2",
+                                "rm": false,
+                                "size": "147.9G",
+                                "ro": false,
+                                "type": "lvm",
+                                "mountpoint": "/home"
+                            },
+                            {
+                                "name": "nvme3n1",
+                                "maj_min": "259:5",
+                                "rm": false,
+                                "size": "2.9T",
+                                "ro": false,
+                                "type": "disk",
+                                "mountpoint": "/opt/oracle/tpch-datafile"
+                            },
+                            {
+                                "name": "nvme1n1",
+                                "maj_min": "259:6",
+                                "rm": false,
+                                "size": "2.9T",
+                                "ro": false,
+                                "type": "disk",
+                                "mountpoint": null
+                            },
+                            {
+                                "name": "nvme4n1",
+                                "maj_min": "259:8",
+                                "rm": false,
+                                "size": "2.9T",
+                                "ro": false,
+                                "type": "disk",
+                                "mountpoint": null
+                            },
+                            {
+                                "name": "nvme2n1",
+                                "maj_min": "259:9",
+                                "rm": false,
+                                "size": "2.9T",
+                                "ro": false,
+                                "type": "disk",
+                                "mountpoint": null
+                            },
+                            {
+                                "name": "nvme0n1",
+                                "maj_min": "259:10",
+                                "rm": false,
+                                "size": "2.9T",
+                                "ro": false,
+                                "type": "disk",
+                                "mountpoint": null
+                            },
+                            {
+                                "name": "nvme2n1p1",
+                                "maj_min": "259:11",
+                                "rm": false,
+                                "size": "2.9T",
+                                "ro": false,
+                                "type": "part",
+                                "mountpoint": null
+                            }
+                        ],
+                        "ipaddress": "[{\"ifindex\":1,\"ifname\":\"lo\",\"flags\":[\"LOOPBACK\",\"UP\",\"LOWER_UP\"],\"mtu\":65536,\"qdisc\":\"noqueue\",\"operstate\":\"UNKNOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"loopback\",\"address\":\"00:00:00:00:00:00\",\"broadcast\":\"00:00:00:00:00:00\",\"addr_info\":[{\"family\":\"inet\",\"local\":\"127.0.0.1\",\"prefixlen\":8,\"scope\":\"host\",\"label\":\"lo\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295},{\"family\":\"inet6\",\"local\":\"::1\",\"prefixlen\":128,\"scope\":\"host\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]},{\"ifindex\":2,\"ifname\":\"eno8303\",\"flags\":[\"BROADCAST\",\"MULTICAST\",\"UP\",\"LOWER_UP\"],\"mtu\":1500,\"qdisc\":\"mq\",\"operstate\":\"UP\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"f4:02:70:d6:f1:78\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"addr_info\":[{\"family\":\"inet\",\"local\":\"10.216.183.212\",\"prefixlen\":22,\"broadcast\":\"10.216.183.255\",\"scope\":\"global\",\"dynamic\":true,\"noprefixroute\":true,\"label\":\"eno8303\",\"valid_life_time\":7686185,\"preferred_life_time\":7686185},{\"family\":\"inet6\",\"local\":\"fe80::f602:70ff:fed6:f178\",\"prefixlen\":64,\"scope\":\"link\",\"noprefixroute\":true,\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]},{\"ifindex\":3,\"ifname\":\"eno8403\",\"flags\":[\"NO-CARRIER\",\"BROADCAST\",\"MULTICAST\",\"UP\"],\"mtu\":1500,\"qdisc\":\"mq\",\"operstate\":\"DOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"f4:02:70:d6:f1:79\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"addr_info\":[]},{\"ifindex\":4,\"ifname\":\"eno12399\",\"flags\":[\"BROADCAST\",\"MULTICAST\",\"UP\",\"LOWER_UP\"],\"mtu\":1500,\"qdisc\":\"mq\",\"operstate\":\"UP\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"1c:34:da:62:d5:28\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"addr_info\":[]},{\"ifindex\":5,\"ifname\":\"eno12409\",\"flags\":[\"NO-CARRIER\",\"BROADCAST\",\"MULTICAST\",\"UP\"],\"mtu\":1500,\"qdisc\":\"mq\",\"operstate\":\"DOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"1c:34:da:62:d5:29\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"addr_info\":[]}]\n",
+                        "memory": [
+                            {
+                                "type": "Mem",
+                                "total": 2,
+                                "used": 7,
+                                "free": 1,
+                                "shared": 601,
+                                "buff_cache": 897,
+                                "available": 1
+                            },
+                            {
+                                "type": "Swap",
+                                "total": 4,
+                                "used": 0,
+                                "free": 4
+                            }
+                        ]
+                    },
+                    "Network": {
+                        "PCISlots": [
+                            {
+                                "PCIeType": "Gen3",
+                                "HotPluggable": true,
+                                "Name": "Express Flash PM1725b 3.2TB SFF",
+                                "Id": "195-0"
+                            },
+                            {
+                                "PCIeType": "Gen4",
+                                "HotPluggable": false,
+                                "Name": "BOSS-S1 Adapter",
+                                "Id": "161-0"
+                            },
+                            {
+                                "PCIeType": "Gen3",
+                                "HotPluggable": true,
+                                "Name": "Express Flash PM1725b 3.2TB SFF",
+                                "Id": "196-0"
+                            },
+                            {
+                                "PCIeType": "Gen3",
+                                "HotPluggable": true,
+                                "Name": "Express Flash PM1725b 3.2TB SFF",
+                                "Id": "36-0"
+                            },
+                            {
+                                "PCIeType": "Gen3",
+                                "HotPluggable": true,
+                                "Name": "Express Flash PM1725b 3.2TB SFF",
+                                "Id": "35-0"
+                            },
+                            {
+                                "PCIeType": "Gen3",
+                                "HotPluggable": true,
+                                "Name": "Express Flash PM1725b 3.2TB SFF",
+                                "Id": "193-0"
+                            },
+                            {
+                                "PCIeType": "Gen4",
+                                "HotPluggable": false
+                            },
+                            {
+                                "PCIeType": "Gen4",
+                                "HotPluggable": false
+                            },
+                            {
+                                "PCIeType": "Gen3",
+                                "HotPluggable": true
+                            },
+                            {
+                                "PCIeType": "Gen3",
+                                "HotPluggable": true
+                            },
+                            {
+                                "PCIeType": "Gen3",
+                                "HotPluggable": true
+                            },
+                            {
+                                "PCIeType": "Gen3",
+                                "HotPluggable": true
+                            },
+                            {
+                                "PCIeType": "Gen3",
+                                "HotPluggable": true
+                            }
+                        ],
+                        "NetworkAdapters": [
+                            {
+                                "PermanentMACAddress": "1C:34:DA:62:D5:28",
+                                "ProductName": "Mellanox ConnectX-5 EN 25GbE Dual-port SFP28 Adapter - 1C:34:DA:62:D5:28",
+                                "CurrentLinkSpeedMbps": 25000,
+                                "LinkStatus": "Up"
+                            },
+                            {
+                                "PermanentMACAddress": "1C:34:DA:62:D5:29",
+                                "ProductName": "Mellanox ConnectX-5 EN 25GbE Dual-port SFP28 Adapter - 1C:34:DA:62:D5:29",
+                                "CurrentLinkSpeedMbps": 0,
+                                "LinkStatus": "Down"
+                            }
+                        ]
+                    },
+                    "Processor": [
+                        {
+                            "InstructionSet": "x86-64",
+                            "Manufacturer": "AMD",
+                            "MaxSpeedMHz": 3900,
+                            "Model": "AMD EPYC 7663 56-Core Processor",
+                            "Name": "CPU 1",
+                            "ProcessorArchitecture": "x86",
+                            "TotalCores": 56,
+                            "TotalThreads": 112,
+                            "Socket": "CPU.Socket.1",
+                            "Status": {
+                                "Health": "OK",
+                                "State": "Enabled"
+                            },
+                            "TotalEnabledCores": 56,
+                            "DellProcessor": {
+                                "CPUFamily": "AMDZenProcessorFamily",
+                                "HyperThreadingCapable": "Yes",
+                                "HyperThreadingEnabled": "Yes",
+                                "Id": "CPU.Socket.1",
+                                "TurboModeCapable": "Yes",
+                                "TurboModeEnabled": "Yes",
+                                "VirtualizationTechnologyCapable": "Yes",
+                                "VirtualizationTechnologyEnabled": "Yes"
+                            },
+                            "CurrentClockSpeedMhz": 2000
+                        },
+                        {
+                            "InstructionSet": "x86-64",
+                            "Manufacturer": "AMD",
+                            "MaxSpeedMHz": 3900,
+                            "Model": "AMD EPYC 7663 56-Core Processor",
+                            "Name": "CPU 2",
+                            "ProcessorArchitecture": "x86",
+                            "TotalCores": 56,
+                            "TotalThreads": 112,
+                            "Socket": "CPU.Socket.2",
+                            "Status": {
+                                "Health": "OK",
+                                "State": "Enabled"
+                            },
+                            "TotalEnabledCores": 56,
+                            "DellProcessor": {
+                                "CPUFamily": "AMDZenProcessorFamily",
+                                "HyperThreadingCapable": "Yes",
+                                "HyperThreadingEnabled": "Yes",
+                                "Id": "CPU.Socket.2",
+                                "TurboModeCapable": "Yes",
+                                "TurboModeEnabled": "Yes",
+                                "VirtualizationTechnologyCapable": "Yes",
+                                "VirtualizationTechnologyEnabled": "Yes"
+                            },
+                            "CurrentClockSpeedMhz": 2000
+                        }
+                    ],
+                    "Memory": {
+                        "Members": [
+                            {
+                                "Id": "DIMM.Socket.A2",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A9",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A15",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A1",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A8",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B10",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B3",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B16",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A16",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B15",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B6",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A13",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A6",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A10",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A7",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B4",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A11",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A12",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A4",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B13",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B9",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B2",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B12",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B8",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A14",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B11",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B14",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A3",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B1",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.A5",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B5",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            },
+                            {
+                                "Id": "DIMM.Socket.B7",
+                                "RankCount": 2,
+                                "Status": {
+                                    "Health": "OK",
+                                    "State": "Enabled"
+                                },
+                                "CapacityMiB": 65536,
+                                "AllowedSpeedsMHz": [
+                                    3200
+                                ],
+                                "OperatingSpeedMhz": 2933,
+                                "BaseModuleType": null,
+                                "Manufacturer": "Hynix Semiconductor",
+                                "MemoryDeviceType": "DDR4"
+                            }
+                        ]
+                    },
+                    "Storage": [
+                        {
+                            "Id": "Disk.Bay.5:Enclosure.Internal.0-1",
+                            "CapacityBytes": 3200631791616,
+                            "MediaType": "SSD",
+                            "Description": "PCIe SSD in Slot 5 in Bay 1"
+                        },
+                        {
+                            "Id": "Disk.Bay.0:Enclosure.Internal.0-1",
+                            "CapacityBytes": 3200631791616,
+                            "MediaType": "SSD",
+                            "Description": "PCIe SSD in Slot 0 in Bay 1"
+                        },
+                        {
+                            "Id": "Disk.Bay.1:Enclosure.Internal.0-1",
+                            "CapacityBytes": 3200631791616,
+                            "MediaType": "SSD",
+                            "Description": "PCIe SSD in Slot 1 in Bay 1"
+                        },
+                        {
+                            "Id": "Disk.Bay.2:Enclosure.Internal.0-1",
+                            "CapacityBytes": 3200631791616,
+                            "MediaType": "SSD",
+                            "Description": "PCIe SSD in Slot 2 in Bay 1"
+                        },
+                        {
+                            "Id": "Disk.Bay.4:Enclosure.Internal.0-1",
+                            "CapacityBytes": 3200631791616,
+                            "MediaType": "SSD",
+                            "Description": "PCIe SSD in Slot 4 in Bay 1"
+                        },
+                        {
+                            "Id": "Disk.Direct.0-0:AHCI.Slot.2-1",
+                            "CapacityBytes": 0,
+                            "MediaType": "SSD",
+                            "Description": "Disk 0 on AHCI Controller in slot 2"
+                        },
+                        {
+                            "Id": "Disk.Direct.1-1:AHCI.Slot.2-1",
+                            "CapacityBytes": 0,
+                            "MediaType": "SSD",
+                            "Description": "Disk 1 on AHCI Controller in slot 2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+# Specify the version for docker-compose.yml
+version: "3.8"
+
+# add the serivces needed (postgres,go)
+services:
+  postgres:
+    build: 
+      context: ./database          
+    container_name: postgres
+    image: anandsk10/postgres_v_01:postgres_V_1.0
+    #image : server/db:postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      #POSTGRES_PASSWORD: 1234567890
+      POSTGRES_PASSWORD: root
+      # Optional: Give a name to the database, otherwise
+      # use the default value POSTGRES_USER as a database name (user in this case.)
+      POSTGRES_DB: server_project
+    ports:
+      - "5432:5432"
+    #volumes: 
+      #- dbdata:/var/lib/postgresql/data
+      # - ./db/init.sql:/docker-entrypoint-initdb.d/create_tables.sql    
+    networks:
+      - default
+
+  go:
+    container_name: go
+    image: anandsk10/golang-api:api_V_1.0
+    # build the Dockerfile, alternatively use an image.
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - "postgres"
+    restart: always
+    ports:
+      - "5002:5002"
+    
+
+    volumes:
+      - .:/app/
+      #dbdata: 
+      # create the volume for persisting data.
+  node_n:
+    build: ./Server-UI
+    image: anandsk10/ui:react
+    container_name: node_n
+    
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 3001:3000
+    networks:
+      - default
+
+    restart: always
